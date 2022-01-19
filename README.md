@@ -1,2 +1,2 @@
-# magic-8-ball
-Have a yes/no question you need to have answered? Ask the Magic 8-Ball!
+# Magic 8-Ball
+Need to have an answer to a yes/no question? Well, this Magic 8-Ball will help with that. But just make sure you don't ask it questions too often, or else...
