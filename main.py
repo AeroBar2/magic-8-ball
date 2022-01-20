@@ -27,15 +27,15 @@ def main():
             time.sleep(1)
             cls()
             if questions_asked < 10:
-                response = random.choice(open('responses.txt').readlines())
+                response = random.choice(open('responses').readlines())
                 questions_asked += 1
             if questions_asked >= 10 and questions_asked < 19:
-                response = random.choice(open('irritated_responses.txt').readlines())
+                response = random.choice(open('irritated_responses').readlines())
                 questions_asked += 1
             if questions_asked == 19:
-                response = random.choice(open('last_warning.txt').readlines())
+                response = random.choice(open('last_warning').readlines())
             if questions_asked >= 20 and questions_asked < 25:
-                response = random.choice(open('angry_responses.txt').readlines())
+                response = random.choice(open('angry_responses').readlines())
                 questions_asked += 1
             if questions_asked >= 25:
                 break
